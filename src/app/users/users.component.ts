@@ -7,8 +7,8 @@ import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-users',
-  standalone: true,
-  imports: [],
+  // standalone: true,
+  // imports: [],
   templateUrl: './users.component.html',
   styleUrl: './users.component.scss'
 })

@@ -8,12 +8,12 @@ import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-user-form',
-  standalone: true,
-  imports: [CommonModule],
+  // standalone: true,
+  // imports: [CommonModule],
   templateUrl: './user-form.component.html',
   styleUrls: ['./user-form.component.scss'],
   providers: [HttpClient],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  // schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class UserFormComponent implements OnInit {
   userForm!: FormGroup;
